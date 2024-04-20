@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'fuente1';
+    src: url('font/Roboto-Italic.ttf');
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'fuente1';
+}
+
+.contenedor{
+    max-width: 55rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.contenedor .fondo{
+    background: url('Images/fondo.png');
+    background-size: 100%;
+    width: 100%;
+    padding-top: 58%;
+    position: relative;
+}
+
+.contenedor .fondo .section{
+    width: 31%;
+    height: 14%;
+    border-radius: 25px;
+    /* border: 1px solid red; */
+    position: absolute;
+     
+}
+
+.contenedor .fondo .section:hover{
+    background-color: rgba(94, 68, 68,0.4);
+    transform: scaleY(1.2);
+    transition: all 1s;
+}
+
+.contenedor .fondo .section.uno{
+    top: 8.5%;
+    left: 6%;
+}
+
+.contenedor .fondo .section.dos{
+    right: 36%;
+    bottom: 66%;
+    width: 26%;
+}
+
+.contenedor .fondo .section.tres{
+    top: 40%;
+    left: 8%;
+}
+
+.contenedor .fondo .section.cuatro{
+    top: 68%;
+    left: 8%;
+    height: 20%;
+}
+
+.contenedor .fondo .section.cinco{
+    top: 71%;
+    left: 63%;
+    height: 20%;
+}
+
+.contenedor .fondo .section.seis{
+    top: 44%;
+    left: 57%;
+    height: 20%
+}
+
+.contenedor .fondo .section.siete{
+    top: 10%;
+    left: 68%;
+    height: 20%;
+}
+
+.contenedor .fondo .ocho img{
+    position: absolute;
+    width: 100px;
+    top: 44%;
+    left: 43%
+}
+
+
+
