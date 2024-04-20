@@ -17,7 +17,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 120px;
+    padding-top: 120px;
 }
 
 header{
@@ -114,6 +114,14 @@ header{
     width: 100px;
     top: 44%;
     left: 43%
+}
+
+
+.centrarimg img{
+    width: 55%;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
 }
 
 
